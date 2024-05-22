@@ -3,11 +3,9 @@
 
 int main()
 {
-    printf("       . \n");
-    printf("      /|\ \n");
-    printf("     / | \ \n");
-    printf("    /  |  \ \n");
-    printf("   /   |   \ \n");
-    printf("  /____|____\ \n");
+    char characterName[] = "yoso";
+    int characterAge = 32;
+    printf("There was once a man named %s\n", characterName);
+    printf("He was %d years old", characterAge);
     return 0;
 }
